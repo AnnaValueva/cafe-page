@@ -223,6 +223,7 @@ body {
 
 .history {
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 
 .history-title {
@@ -309,4 +310,220 @@ body {
     z-index: 0;
     top: -20px;
     left: -220px;
+}
+
+.black-block {
+    background-image: url(/backg.jpg);
+    padding: 80px 0;
+}
+
+.left-title {
+    color: #D67E34;
+    font-family: 'Tinos' , sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 59.79px;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.68px;
+}
+
+.right-btn {
+    background-color: #FF7400;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19.07px;
+    padding: 14px 19px;
+    text-decoration: none;
+
+    transition: background-color 0.2s linear;
+}
+
+.right-btn:hover {
+    background-color: #894b17;
+}
+
+/* создала новый див для контента 
+чтобы разделить текст по сторонам лево и право */
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-title {
+    font-family: 'Tinos' , sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62.09px;
+    color: #000;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 139px;
+}
+
+.dishes-title span {
+    color: #D67E34;
+}
+
+/* картинки бургеров справа и по центру страницы блок*/
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+/* текст справа и по центру картинок и отступ снизу*/
+.burger-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+/* отступы между картинок */
+.burgers-img {
+    margin-right: 20px;
+}
+
+.burger-text {
+    color: #000;
+    font-family: 'Tinos' , sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 29.9px;
+    margin-left: 20px; 
+}
+
+/* чтобы изображение не повторялось 
+и растянулось по экрану */
+.menu {
+    background-image: url(/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    margin-top: 150px;
+}
+
+.menu-title {
+    font-family: 'Tinos' , sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62.09px;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 138px;
+    text-align: center;
+}
+
+/* рамки карточки */
+.menu-item {
+    background-color: #fff;
+    text-align: center;
+    width: 33%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+
+    margin-right: 30px;
+}
+
+.menu-item1 {
+    background-color: #fff;
+    text-align: center;
+    width: 33%;
+    padding-bottom: 30px;
+
+    margin-right: 30px;
+}
+
+.menu-text {
+    font-family: 'Tinos' , sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 29.9px;
+    color: #000;
+    padding-bottom: 17px;
+    padding-top: 22px;
+}
+
+.menu-suptext {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #000;
+}
+
+.menu-btn {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.79px;
+    background-color: #D67E34;
+    padding: 14px 67px;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px 0px #00000040;
+
+
+    transition: background-color 0.2s linear;
+}
+
+.menu-btn:hover {
+    background-color: #894b17;
+}
+
+/* отступ для кнопки. 
+после чего в menu добавляем pad btm 
+чтобы убрать белую полосу.
+чтобы выровнять белый блок до уровня кнопки 
+в menu-item pad btm */
+.menu-button {
+    margin-top: 20px;
+}
+
+/* расположение кружок цены */
+.price-image {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+}
+/* чтобы кружок был только в этом классе */
+.menu-image {
+    position: relative;
+}
+/* расположение цены */
+.price-420 {
+    position: absolute;
+    bottom: 32px;
+    right: 63px;
+    color: #fff;
+    font-family: 'Cookie', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33.27px;
+}
+
+/* чтобы блоки были в строку 
+убрать примыкание в menu-item через margin-right*/
+.menu-items {
+    display: flex;
+    justify-content: center;
+}
+
+.item-suptitle {
+    width: 124px;
+    height: 36px;
+    justify-content: top;
+    align-items: flex-start;
+    margin-bottom: 44px;
+}
+
+.item-sup {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17.7px;
+    color: #000;
+    background-color: #D67E34;
+    padding: 7px 11px 11px 12px;
 }
