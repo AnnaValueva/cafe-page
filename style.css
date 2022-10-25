@@ -527,3 +527,111 @@ body {
     background-color: #D67E34;
     padding: 7px 11px 11px 12px;
 }
+
+.comment {
+    background-color: #E5E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+
+.comment-text {
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 27.24px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* фото круглое */
+.comment-img {
+    border-radius: 50px;
+}
+/* фото по центру */
+.comment-image {
+    text-align: center;
+}
+
+.comment-type {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.24px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.comment-name {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.24px;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.galery-title {
+    color: #000;
+    font-family: 'Tinos' , sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62.09px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.galery-title span {
+    color: #D67E34;
+}
+
+/* картинки слева и справа */
+.galery-content {
+    display: flex;
+    justify-content: center;
+}
+/* раздвигаю картинки */
+.galery-left {
+    margin-right: 30px;
+}
+
+.galery-down, .galery-up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.chef {
+    margin-bottom: 100px;
+}
+
+.chef-title {
+    color: #000;
+    font-family: 'Tinos' , sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62.09px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 107px;
+}
+
+.chef-title span {
+    color: #D67E34;
+}
+
+.chef-content {
+    display: flex;
+    justify-content: center;
+}
+
+.chef1, .chef2 {
+    margin-right: 30px;
+}
+
+.footer {
+    background-color: #000;
+    padding: 20px 20px;
+    color: #fff;
+    text-align: right;
+}
